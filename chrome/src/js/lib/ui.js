@@ -27,6 +27,7 @@ class UI {
         </a>
         <div id="aria2List" class="menu" style="z-index:50;">
           <a class="g-button-menu" id="aria2Text" href="javascript:void(0);">文本导出</a>
+          <a class="g-button-menu" href="mo://open">启动MO</a>
           <a class="g-button-menu" id="settingButton" href="javascript:void(0);">设置</a>
         </div>
       </div>`
