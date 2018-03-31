@@ -177,7 +177,7 @@ class Core {
         if (success) {
           this.showToast('下载成功!赶紧去看看吧~', 'success')
         } else {
-          this.showToast('下载失败!是不是没有开启Aria2?', 'failure')
+          this.showToast('下载失败!是不是没有启动MO?', 'failure')
         }
       })
     })

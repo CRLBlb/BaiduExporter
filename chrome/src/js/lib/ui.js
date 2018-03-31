@@ -22,7 +22,7 @@ class UI {
         <a class="g-button">
           <span class="g-button-right">
             <em class="icon icon-download"></em>
-            <span class="text">导出下载</span>
+            <span class="text">MO.app</span>
           </span>
         </a>
         <div id="aria2List" class="menu" style="z-index:50;">
