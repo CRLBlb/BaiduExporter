@@ -87,7 +87,7 @@ if (previousVersion === '' || previousVersion !== manifest.version) {
     type: 'basic',
     title: '更新',
     message: '百度网盘助手更新到' + manifest.version + '版本啦～\n此次更新恢复自定义文件夹层数功能~',
-    iconUrl: 'img/icon.jpg'
+    iconUrl: 'img/icon.png'
   }
   const id = new Date().getTime().toString()
   showNotification(id, opt)
