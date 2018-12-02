@@ -3,7 +3,7 @@ import EventEmitter from './EventEmitter'
 class Store extends EventEmitter {
   constructor () {
     super()
-    this.defaultRPC = [{name: '使用MO下载', url: 'http://localhost:6800/jsonrpc'}]
+    this.defaultRPC = [{name: '使用MO下载', url: 'http://localhost:16800/jsonrpc'}]
     this.defaultUserAgent = 'netdisk;6.0.0.12;PC;PC-Windows;10.0.16299;WindowsBaiduYunGuanJia'
     this.defaultReferer = 'https://pan.baidu.com/disk/home'
     this.defaultConfigData = {
