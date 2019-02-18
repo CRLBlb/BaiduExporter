@@ -237,7 +237,7 @@ class Share extends Downloader {
         }
       }
     }
-    const prefix = this.getPrefixLength()
+    // const prefix = this.getPrefixLength()
     return new Promise((resolve) => {
       fetch(`${window.location.origin}${parameter.url}${Core.objectToQueryString(parameter.search)}`, parameter.options).then((response) => {
         if (response.ok) {
@@ -245,7 +245,7 @@ class Share extends Downloader {
             if (data.errno === 0) {
               data.list.forEach((item) => {
                 this.fileDownloadInfo.push({
-                  name: item.path.substr(prefix),
+                  name: item.server_filename,
                   link: item.dlink,
                   md5: item.md5
                 })

@@ -93,10 +93,10 @@ class Home extends Downloader {
     }
   }
   getFiles (files) {
-    const prefix = this.getPrefixLength()
+    // const prefix = this.getPrefixLength()
     for (let key in files) {
       this.fileDownloadInfo.push({
-        name: files[key].path.substr(prefix),
+        name: files[key].server_filename,
         link: `${location.protocol}//pcs.baidu.com/rest/2.0/pcs/file?method=download&app_id=250528&path=${encodeURIComponent(files[key].path)}`,
         md5: files[key].md5
       })
